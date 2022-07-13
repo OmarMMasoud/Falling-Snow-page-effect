@@ -1,0 +1,87 @@
+body {
+        background-color: gold;
+      }
+
+      
+      @keyframes animate {
+        0% {
+          opacity: 1;
+          transform: translateY(0) rotate(720deg);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(2500px) rotate(720deg);
+        }}
+
+
+  
+      .Stars div {
+        position: absolute;
+        display: block;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(255, 255, 255);
+        top: -700px;
+        filter: blur(10px);
+        animation: animate 25s linear infinite;
+      }
+
+
+
+      .Stars div:nth-child(1) {
+        left: 70%;
+        animation-delay: 0s;
+        animation-duration: 18s;
+      }
+      .Stars div:nth-child(2) {
+        left: 70%;
+        animation-delay: 0s;
+        animation-duration: 13s;
+      }
+      .Stars div:nth-child(3) {
+        left: 50%;
+        animation-delay: 0s;
+        animation-duration: 10s;
+      }      
+      .Stars div:nth-child(4) {
+        left: 66%;
+        animation-delay: 0s;
+        animation-duration: 9s;
+      }
+      .Stars div:nth-child(5) {
+        left: 20%;
+        animation-delay: 0s;
+        animation-duration: 19s;
+      }
+      .Stars div:nth-child(6) {
+        left: 40%;
+        animation-delay: 0s;
+        animation-duration: 15s;
+      }
+
+
+
+      
+      .Stars div:nth-child(7) {
+        left: 87%;
+        animation-delay: 0s;
+        animation-duration: 12s;
+      }
+
+
+      .Stars div:nth-child(8) {
+        left: 44%;
+        animation-delay: 0s;
+        animation-duration: 22s;
+      }
+
+
+      .Stars div:nth-child(9) {
+        left: 5%;
+        animation-delay: 0s;
+        animation-duration: 25s;
+      }
+
+
+
